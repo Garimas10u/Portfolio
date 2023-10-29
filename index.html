@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap");
+    </style>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Garima's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#firstsection">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#secondsection">Skills</a></li>
+            <li><a href="#cont">Projects</a></li>
+            <!-- <li><a href="#">Contact Me
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </a></li> -->
+            <div class="dropdown">
+              <button class="dropbtn">Contact</button>
+              <div class="dropdown-content">
+                <a href="#">LinkedIn</a>
+                <a href="#">Telegram</a>
+                <a href="#">Gmail</a>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection" id="firstsection">
+        <div class="leftsection">
+          Hi, My Name is <span class="purple">Garima</span>.
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+          <br />
+          <div class="btn">
+            <button class="button">Resume</button>
+            <a href="https://github.com/Garimas10u"><button class="button">GitHub</button></a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="images/lap2.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <!-- about section -->
+    <div id="about">
+      <div class="row">
+        <div class="aboutcol1">
+          <img src="images/About.jpg" alt="" />
+        </div>
+        <div class="aboutcol2">
+          <h6>About Me</h6>
+          <br />
+          <div class="desc">
+            I am currently pursuing my Bachelors in Information Technology. As
+            an avid coder on platforms like HackerRank and CodeChef, I love
+            solving DSA problems in C++.<br />
+            I am also a Web Developer and hone skills like HTML, CSS, Bootstrap
+            and JavaScript.<br />
+            I am dedicated to acquire new skills and incorporate them into my
+            skill set. I am passionate about exploring new technologies,
+            industry trends and working with like-minded individuals.
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="secondsection" id="secondsection">
+      <h2>Skills Timeline</h2>
+      <div class="box">
+        <div class="vertical">
+          <img src="images/c lang.png" class="tticon" />
+          <div class="verticaltext">C</div>
+        </div>
+        <div class="vertical">
+          <img src="images/C++.png" class="tticon" />
+          <div class="verticaltext">C++</div>
+        </div>
+        <div class="vertical">
+          <img src="images/800px-HTML5_Badge.svg.png" class="tticon" alt="" />
+          <div class="verticaltext">HTML</div>
+        </div>
+        <div class="vertical">
+          <img src="images/CSS3_logo.png" class="tticon" alt="" />
+          <div class="verticaltext">CSS</div>
+        </div>
+        <div class="vertical">
+          <img
+            src="images/javascript-online-logo-for-website-0.png"
+            class="tticon"
+            alt=""
+          />
+          <div class="verticaltext">JavaScript</div>
+        </div>
+        <div class="vertical">
+          <img src="images/GitHub-Mark.png" class="tticon" />
+          <div class="verticaltext">GitHub</div>
+        </div>
+      </div>
+    </section>
+    <!-- slider section -->
+
+    <section class="parallax">
+      <div class="linkedin">
+        <div class="rightcont">
+          <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="garimasingh10u" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/garimasingh10u?trk=profile-badge"></a></div>
+        </div>
+        
+        <div class="leftcont">
+          <h1>CODE AND CONNECT</h1>
+        <br />
+        <p>
+          I am actively looking for internships and work opportunities to
+          broaden my horizon and add value to others.
+        </p>
+        </div>
+    </section>
+
+    <!-- projects -->
+   
+    <h2 class="projecthead">Personal Projects</h2>
+    <div class="cont" >
+      <div class="card" id="card1">
+        <h2>Himsafar</h2><br>
+        <img src="images/bus.png" alt="" class="busimg">
+      <p><br>
+    <p>
+        It is a website illustrating features of a bus tracking system that uses GPS to track the availability of buses in the area. 
+    </p><br>
+    <img src="images/right.png" alt="" class="rightimg">
+    </div>
+    <div class="card" id="card2">
+      <h2>FoodEasy </h2><br>
+      <img src="images/food-delivery.png" alt="" class="foodimg">
+      <p><br>    
+      <p>
+      It is a food delivery website developed with HTML and CSS to enable users to avail lip smacking delicacies in minutes at their doorstep.       
+      </p><br>
+      <img src="images/right.png" alt="" class="rightimg">
+    </div>
+    <div class="card" id="card3">
+      <h2>Weather Now</h2><br>
+      <img src="images/rain.png" alt="" class="rainimg">
+      <p><br>
+        It is a website that shows real time weather information including humidity, wind speed of the place entered by the user. 
+      </p><br>
+      <img src="images/right.png" alt="" class="rightimg">
+    </div>
+    <div class="card" id="card4">
+        <h2>Calculator</h2><br>
+        <img  src="images/calculator (1).png" alt="" class="calci">  
+    <p><br>
+      A calculator made by HTML, CSS and Javascript to do arithmetic calculations. It uses javascript to do operations.  
+    </p><br>
+    <img src="images/right.png" alt="" class="rightimg">
+    </div>
+    </div>
+    
+
+
+    <footer>
+      <div class="footersec">
+        <h3>Details</h3>
+        <div class="foot">
+          <div class="sum">
+            <ul class="ulfoot">
+              <li class="footitems"><a href="">Home</a></li>
+              <li class="footitems"><a href="">About</a></li>
+              <li class="footitems"><a href="">Skills</a></li>
+              <li class="footitems"><a href="">Projects</a></li>
+              <li class="footitems"><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <h3>My Socials</h3>
+          <div class="social">
+            <a href="#"><img src="images/linkd.png" class="linked" /></a>
+            <a href="#"><img src="images/telegram.png" class="tele" /></a>
+
+            <a href="#"><img src="images/twitter-logo.png" class="twit" /></a>
+            <a href="#"><img src="images/github.png" class="github" /></a>
+          </div>
+        </div>
+        <div class="footrights">
+          garimasPortfolio &copy 2023 | All rights reserved
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Programmer...",
+          "Web Developer...",
+          "Tech Enthusiast...",
+          "Programmer...",
+          "Web Developer...",
+          "Tech Enthusiast...",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
